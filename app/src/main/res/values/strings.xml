@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FuckingGreatAdviceGetter</string>
+    <string name="get_advice">Получить совет</string>
+    <string name="save_advice">Сохранить в избранное</string>
+    <string name="advice">Советы</string>
+    <string name="favorites">Избранное</string>
+</resources>

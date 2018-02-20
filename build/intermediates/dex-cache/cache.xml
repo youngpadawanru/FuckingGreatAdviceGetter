@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\84866626b5414cf4ad1d6b773f60b2c50904e10e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c7543a897f11c7f06a26332cabd119127df39d0e">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_610f61da85a7aea6e855442328c83617cffa7f48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\040760b91b268a3c1ca9953c0183b82822610b26\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_b2ff68d0a66ab745ae116ed001356246045ada22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_211af402fd65757025e9a9f6bf0d6fe03a59f856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25ea2e8b0c338a877313bd4672d3fe056ea78f0d">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\jsr305-3.0.2_1b9e33982b28011141b712fb6a930e7de661d1d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.8.1_ce42900314addcaadf5eb5eda6a4201797a35175.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1ce8b49c245512106cd32e403bed7943e453a10e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_a885a806d70f142e562be30933302a5138157e7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c68420a055afb258c11b2627b040a3f7cec56b18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_b6aa6af518b5780ea56467e3db07a8c5fb193f4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\okio-1.13.0_38b74e4be266d69e70035860c1bf242ab4307618.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\3d4bba482d5bba26ed10868dd6dc5a1dd9a35806\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_b20e791eaeb022c48459fc52f8a632779f039563.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\okhttp-3.9.0_dbfe7a28a3e757dfc36658bed641674c7bfeadf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c51139e93d9aae38e17fb55b41cfda3840d1a565\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_be1eecafc197253e96ac892acfcfbc6572ffadf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\4.1.1\967fe0aebb6863832d43b81030c0a93eb4cac6b\realm-annotations-4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0967fe0aebb6863832d43b81030c0a93eb4cac6b">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\realm-annotations-4.1.1_955564e3f6c400004527ceb9adb41a6c4e8e2db1.jar" />
+    </item>
+
+</items>
