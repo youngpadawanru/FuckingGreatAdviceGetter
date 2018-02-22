@@ -1,6 +1,5 @@
 package com.example.user.fuckinggreatadvicegetter;
 
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,17 +9,15 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import io.realm.RealmChangeListener;
 import io.realm.RealmResults;
 
 
-class AdviceAdapter extends RecyclerView.Adapter<AdviceAdapter.ViewHolder> implements RealmChangeListener, ItemTouchHelperAdapter {
+class AdviceAdapter extends RecyclerView.Adapter<AdviceAdapter.ViewHolder> implements ItemTouchHelperAdapter {
 
     private final RealmResults<Advice> advices;
 
     AdviceAdapter(RealmResults<Advice> obj) {
         advices = obj;
-        advices.addChangeListener(this);
     }
 
     @Override
@@ -48,12 +45,6 @@ class AdviceAdapter extends RecyclerView.Adapter<AdviceAdapter.ViewHolder> imple
         int position = getItemCount() + 1;
         notifyItemInserted(position);
     }
-
-    @Override
-    public void onChange(@NonNull Object o) {
-        notifyDataSetChanged();
-    }
-
 
     class ViewHolder extends RecyclerView.ViewHolder {
 

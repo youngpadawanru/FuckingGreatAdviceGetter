@@ -41,6 +41,7 @@ public class FavoritesFragment extends Fragment {
         ItemTouchHelper.Callback callback = new AdviceItemTouchHelper(adapter);
         ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
         touchHelper.attachToRecyclerView(recyclerView);
+        ((MainActivity) getActivity()).setAdapter(adapter);
         return view;
     }
 

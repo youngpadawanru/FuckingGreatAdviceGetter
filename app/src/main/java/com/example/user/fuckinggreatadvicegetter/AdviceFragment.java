@@ -51,6 +51,8 @@ public class AdviceFragment extends Fragment {
             realm = Realm.getDefaultInstance();
             DBController dbController = new DBController();
             dbController.add(advice);
+            AdviceAdapter adapter = ((MainActivity) getActivity()).getAdapter();
+            adapter.onItemAdd();
         });
         return view;
     }

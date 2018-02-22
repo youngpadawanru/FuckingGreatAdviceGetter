@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     ViewPager viewPager;
     TabLayout tabLayout;
+    AdviceAdapter adapter;
     Realm realm;
 
     @Override
@@ -30,5 +31,13 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new AdviceFragment(), getResources().getString(R.string.advice));
         adapter.addFragment(new FavoritesFragment(), getResources().getString(R.string.favorites));
         viewPager.setAdapter(adapter);
+    }
+
+    public void setAdapter(AdviceAdapter adapter) {
+        this.adapter = adapter;
+    }
+
+    public AdviceAdapter getAdapter() {
+        return adapter;
     }
 }
