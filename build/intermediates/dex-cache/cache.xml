@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0_b27164a160cdca23bdbae73d3ea0b9541ab64189.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\User\.android\build-cache\040760b91b268a3c1ca9953c0183b82822610b26\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
         <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_b2ff68d0a66ab745ae116ed001356246045ada22.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_211af402fd65757025e9a9f6bf0d6fe03a59f856.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,12 +48,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\User\.android\build-cache\1ce8b49c245512106cd32e403bed7943e453a10e\output\jars\classes.jar"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
-        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_a885a806d70f142e562be30933302a5138157e7b.jar" />
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\adapter-rxjava2-2.3.0_fdb030f425c03daabb18ad01270ad0334f64b9e9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_5c5265f107f8e259bd3bc5684b15b88bc8a781cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
@@ -75,12 +84,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.2\cfccdd18cdfbe7b4773d42c9f3512eeafbe5cbf9\rxjava-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cfccdd18cdfbe7b4773d42c9f3512eeafbe5cbf9">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\rxjava-2.0.2_9ddb5425e0e032dd05bc11986f196d252b8ca19b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\User\.android\build-cache\3d4bba482d5bba26ed10868dd6dc5a1dd9a35806\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
         <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_b20e791eaeb022c48459fc52f8a632779f039563.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2702ddb3c2b5171917ae5802e0d4019acf1b7f48\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_c24cdb585b843298cbb501b281258df6568c0386.jar" />
     </item>
     <item
         is-multidex="false"
@@ -99,6 +126,15 @@
         revision="26.0.2"
         sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
         <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_be1eecafc197253e96ac892acfcfbc6572ffadf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\gson-2.7_6588e2d99545897d2f73b2d19e617a456d73fb1f.jar" />
     </item>
     <item
         is-multidex="false"

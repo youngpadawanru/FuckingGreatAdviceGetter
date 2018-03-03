@@ -1,14 +1,23 @@
 package com.example.user.fuckinggreatadvicegetter;
 
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.UUID;
 
 import io.realm.RealmObject;
 
 public class Advice extends RealmObject {
-
-    private String advice;
+    @SerializedName("id")
+    @Expose
     private String id;
+    @SerializedName("text")
+    @Expose
+    private String text;
+    @SerializedName("sound")
+    @Expose
+    private String sound;
 
     public Advice() {
         this(UUID.randomUUID().toString());
@@ -22,11 +31,11 @@ public class Advice extends RealmObject {
         return id;
     }
 
-    public String getAdvice() {
-        return advice;
+    public String getText() {
+        return text;
     }
 
-    public void setAdvice(String advice) {
-        this.advice = advice;
+    public void setText(String advice) {
+        this.text = advice;
     }
 }

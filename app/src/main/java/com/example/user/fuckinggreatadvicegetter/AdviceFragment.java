@@ -1,7 +1,6 @@
 package com.example.user.fuckinggreatadvicegetter;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -9,19 +8,28 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.schedulers.Schedulers;
 import io.realm.Realm;
+import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class AdviceFragment extends Fragment {
 
-    private String advice;
+    private String url = "http://fucking-great-advice.ru/api/";
     private TextView textView;
+    private String advice;
+    private CompositeDisposable compositeDisposable = new CompositeDisposable();
     Realm realm;
-    private Handler handler = new Handler();
+
 
     @Nullable
     @Override
@@ -37,16 +45,8 @@ public class AdviceFragment extends Fragment {
         textView = view.findViewById(R.id.text);
         Button getButton = view.findViewById(R.id.getbutton);
         Button saveButton = view.findViewById(R.id.savebutton);
-        getButton.setOnClickListener(v -> {
-            GetAdvice getAdvice = new GetAdvice();
-            getAdvice.execute();
-            try {
-                advice = getAdvice.get();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            textView.setText(advice);
-        });
+
+        getButton.setOnClickListener(v -> getAdvice());
         saveButton.setOnClickListener(v -> {
             realm = Realm.getDefaultInstance();
             DBController dbController = new DBController();
@@ -60,14 +60,35 @@ public class AdviceFragment extends Fragment {
     private class MyTimerTask extends TimerTask {
         @Override
         public void run() {
-            GetAdvice getAdvice = new GetAdvice();
-            getAdvice.execute();
-            try {
-                advice = getAdvice.get();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            handler.post(() -> textView.setText(advice));
+            getAdvice();
         }
+    }
+
+    private void getAdvice() {
+        FGAClient fgaClient = new Retrofit.Builder()
+                .baseUrl(url)
+                .addConverterFactory(GsonConverterFactory.create())
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                .build().create(FGAClient.class);
+
+        compositeDisposable.add(fgaClient.getData()
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribeOn(Schedulers.io())
+                .subscribe(this::handleResponse, this::handleError));
+    }
+
+    private void handleResponse(Advice adv) {
+        advice = adv.getText();
+        textView.setText(adv.getText());
+    }
+
+    private void handleError(Throwable error) {
+        Toast.makeText(getContext(), "Error " + error.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        compositeDisposable.clear();
     }
 }

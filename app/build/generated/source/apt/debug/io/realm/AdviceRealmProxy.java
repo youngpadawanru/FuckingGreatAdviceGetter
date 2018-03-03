@@ -36,14 +36,16 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
     implements RealmObjectProxy, AdviceRealmProxyInterface {
 
     static final class AdviceColumnInfo extends ColumnInfo {
-        long adviceIndex;
         long idIndex;
+        long textIndex;
+        long soundIndex;
 
         AdviceColumnInfo(OsSchemaInfo schemaInfo) {
-            super(2);
+            super(3);
             OsObjectSchemaInfo objectSchemaInfo = schemaInfo.getObjectSchemaInfo("Advice");
-            this.adviceIndex = addColumnDetails("advice", objectSchemaInfo);
             this.idIndex = addColumnDetails("id", objectSchemaInfo);
+            this.textIndex = addColumnDetails("text", objectSchemaInfo);
+            this.soundIndex = addColumnDetails("sound", objectSchemaInfo);
         }
 
         AdviceColumnInfo(ColumnInfo src, boolean mutable) {
@@ -60,17 +62,19 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         protected final void copy(ColumnInfo rawSrc, ColumnInfo rawDst) {
             final AdviceColumnInfo src = (AdviceColumnInfo) rawSrc;
             final AdviceColumnInfo dst = (AdviceColumnInfo) rawDst;
-            dst.adviceIndex = src.adviceIndex;
             dst.idIndex = src.idIndex;
+            dst.textIndex = src.textIndex;
+            dst.soundIndex = src.soundIndex;
         }
     }
 
     private static final OsObjectSchemaInfo expectedObjectSchemaInfo = createExpectedObjectSchemaInfo();
     private static final List<String> FIELD_NAMES;
     static {
-        List<String> fieldNames = new ArrayList<String>(2);
-        fieldNames.add("advice");
+        List<String> fieldNames = new ArrayList<String>(3);
         fieldNames.add("id");
+        fieldNames.add("text");
+        fieldNames.add("sound");
         FIELD_NAMES = Collections.unmodifiableList(fieldNames);
     }
 
@@ -93,36 +97,6 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         proxyState.setRow$realm(context.getRow());
         proxyState.setAcceptDefaultValue$realm(context.getAcceptDefaultValue());
         proxyState.setExcludeFields$realm(context.getExcludeFields());
-    }
-
-    @Override
-    @SuppressWarnings("cast")
-    public String realmGet$advice() {
-        proxyState.getRealm$realm().checkIfValid();
-        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.adviceIndex);
-    }
-
-    @Override
-    public void realmSet$advice(String value) {
-        if (proxyState.isUnderConstruction()) {
-            if (!proxyState.getAcceptDefaultValue$realm()) {
-                return;
-            }
-            final Row row = proxyState.getRow$realm();
-            if (value == null) {
-                row.getTable().setNull(columnInfo.adviceIndex, row.getIndex(), true);
-                return;
-            }
-            row.getTable().setString(columnInfo.adviceIndex, row.getIndex(), value, true);
-            return;
-        }
-
-        proxyState.getRealm$realm().checkIfValid();
-        if (value == null) {
-            proxyState.getRow$realm().setNull(columnInfo.adviceIndex);
-            return;
-        }
-        proxyState.getRow$realm().setString(columnInfo.adviceIndex, value);
     }
 
     @Override
@@ -155,10 +129,71 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         proxyState.getRow$realm().setString(columnInfo.idIndex, value);
     }
 
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$text() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.textIndex);
+    }
+
+    @Override
+    public void realmSet$text(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.textIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.textIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.textIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.textIndex, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$sound() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.soundIndex);
+    }
+
+    @Override
+    public void realmSet$sound(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.soundIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.soundIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.soundIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.soundIndex, value);
+    }
+
     private static OsObjectSchemaInfo createExpectedObjectSchemaInfo() {
-        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder("Advice", 2, 0);
-        builder.addPersistedProperty("advice", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder("Advice", 3, 0);
         builder.addPersistedProperty("id", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty("text", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty("sound", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         return builder.build();
     }
 
@@ -185,18 +220,25 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         com.example.user.fuckinggreatadvicegetter.Advice obj = realm.createObjectInternal(com.example.user.fuckinggreatadvicegetter.Advice.class, true, excludeFields);
 
         final AdviceRealmProxyInterface objProxy = (AdviceRealmProxyInterface) obj;
-        if (json.has("advice")) {
-            if (json.isNull("advice")) {
-                objProxy.realmSet$advice(null);
-            } else {
-                objProxy.realmSet$advice((String) json.getString("advice"));
-            }
-        }
         if (json.has("id")) {
             if (json.isNull("id")) {
                 objProxy.realmSet$id(null);
             } else {
                 objProxy.realmSet$id((String) json.getString("id"));
+            }
+        }
+        if (json.has("text")) {
+            if (json.isNull("text")) {
+                objProxy.realmSet$text(null);
+            } else {
+                objProxy.realmSet$text((String) json.getString("text"));
+            }
+        }
+        if (json.has("sound")) {
+            if (json.isNull("sound")) {
+                objProxy.realmSet$sound(null);
+            } else {
+                objProxy.realmSet$sound((String) json.getString("sound"));
             }
         }
         return obj;
@@ -212,19 +254,26 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         while (reader.hasNext()) {
             String name = reader.nextName();
             if (false) {
-            } else if (name.equals("advice")) {
-                if (reader.peek() != JsonToken.NULL) {
-                    objProxy.realmSet$advice((String) reader.nextString());
-                } else {
-                    reader.skipValue();
-                    objProxy.realmSet$advice(null);
-                }
             } else if (name.equals("id")) {
                 if (reader.peek() != JsonToken.NULL) {
                     objProxy.realmSet$id((String) reader.nextString());
                 } else {
                     reader.skipValue();
                     objProxy.realmSet$id(null);
+                }
+            } else if (name.equals("text")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$text((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$text(null);
+                }
+            } else if (name.equals("sound")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$sound((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$sound(null);
                 }
             } else {
                 reader.skipValue();
@@ -266,8 +315,9 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         AdviceRealmProxyInterface realmObjectSource = (AdviceRealmProxyInterface) newObject;
         AdviceRealmProxyInterface realmObjectCopy = (AdviceRealmProxyInterface) realmObject;
 
-        realmObjectCopy.realmSet$advice(realmObjectSource.realmGet$advice());
         realmObjectCopy.realmSet$id(realmObjectSource.realmGet$id());
+        realmObjectCopy.realmSet$text(realmObjectSource.realmGet$text());
+        realmObjectCopy.realmSet$sound(realmObjectSource.realmGet$sound());
         return realmObject;
     }
 
@@ -280,13 +330,17 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         AdviceColumnInfo columnInfo = (AdviceColumnInfo) realm.getSchema().getColumnInfo(com.example.user.fuckinggreatadvicegetter.Advice.class);
         long rowIndex = OsObject.createRow(table);
         cache.put(object, rowIndex);
-        String realmGet$advice = ((AdviceRealmProxyInterface) object).realmGet$advice();
-        if (realmGet$advice != null) {
-            Table.nativeSetString(tableNativePtr, columnInfo.adviceIndex, rowIndex, realmGet$advice, false);
-        }
         String realmGet$id = ((AdviceRealmProxyInterface) object).realmGet$id();
         if (realmGet$id != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.idIndex, rowIndex, realmGet$id, false);
+        }
+        String realmGet$text = ((AdviceRealmProxyInterface) object).realmGet$text();
+        if (realmGet$text != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.textIndex, rowIndex, realmGet$text, false);
+        }
+        String realmGet$sound = ((AdviceRealmProxyInterface) object).realmGet$sound();
+        if (realmGet$sound != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.soundIndex, rowIndex, realmGet$sound, false);
         }
         return rowIndex;
     }
@@ -307,13 +361,17 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
             }
             long rowIndex = OsObject.createRow(table);
             cache.put(object, rowIndex);
-            String realmGet$advice = ((AdviceRealmProxyInterface) object).realmGet$advice();
-            if (realmGet$advice != null) {
-                Table.nativeSetString(tableNativePtr, columnInfo.adviceIndex, rowIndex, realmGet$advice, false);
-            }
             String realmGet$id = ((AdviceRealmProxyInterface) object).realmGet$id();
             if (realmGet$id != null) {
                 Table.nativeSetString(tableNativePtr, columnInfo.idIndex, rowIndex, realmGet$id, false);
+            }
+            String realmGet$text = ((AdviceRealmProxyInterface) object).realmGet$text();
+            if (realmGet$text != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.textIndex, rowIndex, realmGet$text, false);
+            }
+            String realmGet$sound = ((AdviceRealmProxyInterface) object).realmGet$sound();
+            if (realmGet$sound != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.soundIndex, rowIndex, realmGet$sound, false);
             }
         }
     }
@@ -327,17 +385,23 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         AdviceColumnInfo columnInfo = (AdviceColumnInfo) realm.getSchema().getColumnInfo(com.example.user.fuckinggreatadvicegetter.Advice.class);
         long rowIndex = OsObject.createRow(table);
         cache.put(object, rowIndex);
-        String realmGet$advice = ((AdviceRealmProxyInterface) object).realmGet$advice();
-        if (realmGet$advice != null) {
-            Table.nativeSetString(tableNativePtr, columnInfo.adviceIndex, rowIndex, realmGet$advice, false);
-        } else {
-            Table.nativeSetNull(tableNativePtr, columnInfo.adviceIndex, rowIndex, false);
-        }
         String realmGet$id = ((AdviceRealmProxyInterface) object).realmGet$id();
         if (realmGet$id != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.idIndex, rowIndex, realmGet$id, false);
         } else {
             Table.nativeSetNull(tableNativePtr, columnInfo.idIndex, rowIndex, false);
+        }
+        String realmGet$text = ((AdviceRealmProxyInterface) object).realmGet$text();
+        if (realmGet$text != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.textIndex, rowIndex, realmGet$text, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.textIndex, rowIndex, false);
+        }
+        String realmGet$sound = ((AdviceRealmProxyInterface) object).realmGet$sound();
+        if (realmGet$sound != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.soundIndex, rowIndex, realmGet$sound, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.soundIndex, rowIndex, false);
         }
         return rowIndex;
     }
@@ -358,17 +422,23 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
             }
             long rowIndex = OsObject.createRow(table);
             cache.put(object, rowIndex);
-            String realmGet$advice = ((AdviceRealmProxyInterface) object).realmGet$advice();
-            if (realmGet$advice != null) {
-                Table.nativeSetString(tableNativePtr, columnInfo.adviceIndex, rowIndex, realmGet$advice, false);
-            } else {
-                Table.nativeSetNull(tableNativePtr, columnInfo.adviceIndex, rowIndex, false);
-            }
             String realmGet$id = ((AdviceRealmProxyInterface) object).realmGet$id();
             if (realmGet$id != null) {
                 Table.nativeSetString(tableNativePtr, columnInfo.idIndex, rowIndex, realmGet$id, false);
             } else {
                 Table.nativeSetNull(tableNativePtr, columnInfo.idIndex, rowIndex, false);
+            }
+            String realmGet$text = ((AdviceRealmProxyInterface) object).realmGet$text();
+            if (realmGet$text != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.textIndex, rowIndex, realmGet$text, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.textIndex, rowIndex, false);
+            }
+            String realmGet$sound = ((AdviceRealmProxyInterface) object).realmGet$sound();
+            if (realmGet$sound != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.soundIndex, rowIndex, realmGet$sound, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.soundIndex, rowIndex, false);
             }
         }
     }
@@ -392,8 +462,9 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
         }
         AdviceRealmProxyInterface unmanagedCopy = (AdviceRealmProxyInterface) unmanagedObject;
         AdviceRealmProxyInterface realmSource = (AdviceRealmProxyInterface) realmObject;
-        unmanagedCopy.realmSet$advice(realmSource.realmGet$advice());
         unmanagedCopy.realmSet$id(realmSource.realmGet$id());
+        unmanagedCopy.realmSet$text(realmSource.realmGet$text());
+        unmanagedCopy.realmSet$sound(realmSource.realmGet$sound());
 
         return unmanagedObject;
     }
@@ -405,12 +476,16 @@ public class AdviceRealmProxy extends com.example.user.fuckinggreatadvicegetter.
             return "Invalid object";
         }
         StringBuilder stringBuilder = new StringBuilder("Advice = proxy[");
-        stringBuilder.append("{advice:");
-        stringBuilder.append(realmGet$advice() != null ? realmGet$advice() : "null");
-        stringBuilder.append("}");
-        stringBuilder.append(",");
         stringBuilder.append("{id:");
         stringBuilder.append(realmGet$id() != null ? realmGet$id() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{text:");
+        stringBuilder.append(realmGet$text() != null ? realmGet$text() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{sound:");
+        stringBuilder.append(realmGet$sound() != null ? realmGet$sound() : "null");
         stringBuilder.append("}");
         stringBuilder.append("]");
         return stringBuilder.toString();

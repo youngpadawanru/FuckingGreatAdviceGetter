@@ -74,6 +74,7 @@ MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\User\.
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\User\.android\build-cache\134e66003ea586182858f67e5deac2e95d48aa4b\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\User\.android\build-cache\176d2bdbe24f702b4d016bbe3b41d51dd17bf0f6\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\User\.android\build-cache\61ae85a7ec306d3047c90535371cb66a87bcdb8e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\User\.android\build-cache\2702ddb3c2b5171917ae5802e0d4019acf1b7f48\output\AndroidManifest.xml:19:5-43
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\User\.android\build-cache\3d4bba482d5bba26ed10868dd6dc5a1dd9a35806\output\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\User\.android\build-cache\fee79ffb6530b873916ad877a15c440f18232456\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary

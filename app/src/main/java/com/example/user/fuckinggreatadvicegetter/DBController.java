@@ -8,7 +8,7 @@ class DBController {
 
     public void add(String string) {
         Advice advice = new Advice();
-        advice.setAdvice(string);
+        advice.setText(string);
         realm = Realm.getDefaultInstance();
         realm.beginTransaction();
         realm.copyToRealm(advice);

@@ -28,7 +28,7 @@ class AdviceAdapter extends RecyclerView.Adapter<AdviceAdapter.ViewHolder> imple
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
-        viewHolder.advice_text.setText(advices.get(i).getAdvice());
+        viewHolder.advice_text.setText(advices.get(i).getText());
     }
 
     @Override
