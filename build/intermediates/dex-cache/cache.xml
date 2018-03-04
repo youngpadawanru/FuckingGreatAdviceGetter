@@ -111,6 +111,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\366b75213ae41abac1fc0b3b897b47f33e951f5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eb305d2ec1f85a4122c5e9d0412c87e20dac20f8">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter\app\build\intermediates\pre-dexed\debug\classes_33ab9b734eae3873d59494a1599a2136c659c243.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
         jumboMode="false"
         optimize="true"

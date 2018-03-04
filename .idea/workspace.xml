@@ -9,50 +9,30 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa73477-3337-45bf-b22a-d6c2ddbd904c" name="Default" comment="Решена проблема с кривой анимацией при удалении элемента из списка.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FGAClient.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/GetAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java" afterPath="" />
+    <list default="true" id="caa73477-3337-45bf-b22a-d6c2ddbd904c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/Advice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/Advice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceFragment$MyTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceFragment$MyTimerTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/AdviceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/DBController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/user/fuckinggreatadvicegetter/DBController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/AdviceRealmProxy$AdviceColumnInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/AdviceRealmProxy$AdviceColumnInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/AdviceRealmProxy.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/AdviceRealmProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/AdviceRealmProxyInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/AdviceRealmProxyInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/pTEQ8h4zXhvb9DIBMzyJh1pL9rQ=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/pTEQ8h4zXhvb9DIBMzyJh1pL9rQ=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/retrolambda_2768c00fad43117f6fcf7515c5596a9c51dd9d88.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/retrolambda_2768c00fad43117f6fcf7515c5596a9c51dd9d88.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/Advice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/Advice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment$MyTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment$MyTimerTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/AdviceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/DBController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/com/example/user/fuckinggreatadvicegetter/DBController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/io/realm/AdviceRealmProxy$AdviceColumnInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/io/realm/AdviceRealmProxy$AdviceColumnInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/io/realm/AdviceRealmProxy.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/io/realm/AdviceRealmProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/io/realm/AdviceRealmProxyInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/folders/1/1/realm/io/realm/AdviceRealmProxyInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/Advice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/Advice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$$Lambda$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$$Lambda$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$$Lambda$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$$Lambda$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$MyTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment$MyTimerTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/AdviceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/DBController.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/com/example/user/fuckinggreatadvicegetter/DBController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/io/realm/AdviceRealmProxy$AdviceColumnInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/io/realm/AdviceRealmProxy$AdviceColumnInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/io/realm/AdviceRealmProxy.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/io/realm/AdviceRealmProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/io/realm/AdviceRealmProxyInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/retrolambda/debug/folders/1/1/retrolambda/io/realm/AdviceRealmProxyInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/apt/debug/io/realm/AdviceRealmProxy.java" afterPath="$PROJECT_DIR$/app/build/generated/source/apt/debug/io/realm/AdviceRealmProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/apt/debug/io/realm/AdviceRealmProxyInterface.java" afterPath="$PROJECT_DIR$/app/build/generated/source/apt/debug/io/realm/AdviceRealmProxyInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
@@ -62,13 +42,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/Advice.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/Advice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/DBController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/DBController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FavoritesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FavoritesFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="FuckingGreatAdviceGetter.iws" />
@@ -104,12 +79,32 @@
       <file leaf-file-name="AdviceFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+            <state relative-caret-position="-26">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="22" />
               <folding>
-                <element signature="e#2141#2142#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2077#2078#0" expanded="true" />
+                <element signature="e#2112#2113#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,7 +112,7 @@
       <file leaf-file-name="FavoritesFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FavoritesFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="748">
               <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding />
             </state>
@@ -127,11 +122,9 @@
       <file leaf-file-name="AdviceAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="493">
               <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +132,7 @@
       <file leaf-file-name="DBController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/DBController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="170">
               <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
@@ -149,13 +142,9 @@
       <file leaf-file-name="Advice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/Advice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
+            <state relative-caret-position="425">
               <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,11 +152,9 @@
       <file leaf-file-name="FGAClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FGAClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="136">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -714,6 +701,11 @@
                 <option name="description" value="Prepare io.realm:realm-android-library-object-server:4.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareIoRealmRealmAndroidLibraryObjectServer411Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.jakewharton.rxbinding2:rxbinding:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComJakewhartonRxbinding2Rxbinding200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1494,6 +1486,11 @@
                 <option name="name" value="prepareIoRealmRealmAndroidLibraryObjectServer411Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.jakewharton.rxbinding2:rxbinding:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComJakewhartonRxbinding2Rxbinding200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processDebugJavaRes" />
               </ExternalTaskPojo>
@@ -1794,7 +1791,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter" value="4558052311178" />
+        <entry key="C:\Users\User\AndroidStudioProjects\FuckingGreatAdviceGetter" value="4558234092125" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2204,11 +2201,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/DBController.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FavoritesFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/Advice.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FGAClient.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceFragment.java" />
       </list>
     </option>
@@ -2244,8 +2241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2303,7 +2300,7 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2647,7 +2644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519294842727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Получение данных от сервиса реализованно средствами библеотек RX Java и Retrofit.">
+      <created>1520078997999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520078997999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2697,7 +2701,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Решена проблема с кривой анимацией при удалении элемента из списка." />
-    <option name="LAST_COMMIT_MESSAGE" value="Решена проблема с кривой анимацией при удалении элемента из списка." />
+    <MESSAGE value="Получение данных от сервиса реализованно средствами библеотек RX Java и Retrofit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Получение данных от сервиса реализованно средствами библеотек RX Java и Retrofit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2706,14 +2711,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -2740,8 +2738,8 @@
         <state relative-caret-position="697">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2758,20 +2756,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -2787,8 +2776,8 @@
         <state relative-caret-position="697">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2805,20 +2794,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -2834,8 +2814,8 @@
         <state relative-caret-position="918">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2852,9 +2832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2873,8 +2851,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2891,9 +2869,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2926,8 +2902,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2945,8 +2921,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2983,16 +2959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3099,47 +3066,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/GetAdvice.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
+        <state relative-caret-position="493">
           <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/Advice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
+        <state relative-caret-position="425">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/DBController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="170">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
@@ -3147,7 +3093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FavoritesFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="748">
           <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding />
         </state>
@@ -3155,21 +3101,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/FGAClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="136">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/fuckinggreatadvicegetter/AdviceFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        <state relative-caret-position="-26">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="22" />
           <folding>
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>

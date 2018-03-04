@@ -10,11 +10,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jakewharton.rxbinding2.view.RxView;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 import io.realm.Realm;
 import retrofit2.Retrofit;
@@ -28,14 +31,14 @@ public class AdviceFragment extends Fragment {
     private TextView textView;
     private String advice;
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
+    private Disposable getBtnDis;
+    private Disposable saveBtnDis;
     Realm realm;
-
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.advice_fragment, container, false);
-
         setRetainInstance(true);
         if (savedInstanceState == null) {
             TimerTask timerTask = new MyTimerTask();
@@ -45,15 +48,8 @@ public class AdviceFragment extends Fragment {
         textView = view.findViewById(R.id.text);
         Button getButton = view.findViewById(R.id.getbutton);
         Button saveButton = view.findViewById(R.id.savebutton);
-
-        getButton.setOnClickListener(v -> getAdvice());
-        saveButton.setOnClickListener(v -> {
-            realm = Realm.getDefaultInstance();
-            DBController dbController = new DBController();
-            dbController.add(advice);
-            AdviceAdapter adapter = ((MainActivity) getActivity()).getAdapter();
-            adapter.onItemAdd();
-        });
+        getBtnDis = RxView.clicks(getButton).subscribe(o -> getAdvice());
+        saveBtnDis = RxView.clicks(saveButton).subscribe(o -> saveAdvice());
         return view;
     }
 
@@ -84,6 +80,14 @@ public class AdviceFragment extends Fragment {
 
     private void handleError(Throwable error) {
         Toast.makeText(getContext(), "Error " + error.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+    }
+
+    private void saveAdvice() {
+        realm = Realm.getDefaultInstance();
+        DBController dbController = new DBController();
+        dbController.add(advice);
+        AdviceAdapter adapter = ((MainActivity) getActivity()).getAdapter();
+        adapter.onItemAdd();
     }
 
     @Override
