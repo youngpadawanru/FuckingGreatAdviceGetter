@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="2"
-    tools:context="com.example.user.fuckinggreatadvicegetter.MainActivity">
+    tools:context="com.example.user.fuckinggreatadvicegetter.views.MainActivity">
 
     <LinearLayout
         android:layout_weight="1"
