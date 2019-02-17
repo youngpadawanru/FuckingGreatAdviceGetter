@@ -4,13 +4,8 @@
 
 Использованы технологии:
 
--RX Java
+-Kotlin coroutines
 
 -Retrofit
 
 -Realm
-
--ButerKnife
-
-
-Для удаления используйте свайп влево
