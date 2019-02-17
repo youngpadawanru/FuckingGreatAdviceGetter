@@ -4,11 +4,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import com.example.user.fuckinggreatadvicegetter.R
 import com.example.user.fuckinggreatadvicegetter.model.Advice
 import io.realm.RealmResults
+import kotlinx.android.extensions.LayoutContainer
+import kotlinx.android.synthetic.main.advice_item.*
 
 class FavoritesListAdapter(private val advices: RealmResults<Advice>) : RecyclerView.Adapter<FavoritesListAdapter.ViewHolder>() {
     override fun onBindViewHolder(p0: ViewHolder, p1: Int) {
@@ -28,8 +28,10 @@ class FavoritesListAdapter(private val advices: RealmResults<Advice>) : Recycler
         notifyItemInserted(itemCount + 1)
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var adviceText: TextView = itemView.findViewById(R.id.advice_text)
+    class ViewHolder(override val containerView: View) : RecyclerView.ViewHolder(containerView), LayoutContainer {
+        fun bind(title: String) {
+            adviceText.text = title
+        }
     }
 }
 

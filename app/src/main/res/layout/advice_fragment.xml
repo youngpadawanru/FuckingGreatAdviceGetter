@@ -17,7 +17,7 @@
         <TextView
             android:freezesText="true"
             android:gravity="center"
-            android:id="@+id/text"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
@@ -40,7 +40,7 @@
         android:weightSum="6">
 
         <Button
-            android:id="@+id/getbutton"
+            android:id="@+id/getButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -50,7 +50,7 @@
             tools:layout_editor_absoluteY="8dp" />
 
         <Button
-            android:id="@+id/savebutton"
+            android:id="@+id/saveButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

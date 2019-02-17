@@ -1,33 +1,26 @@
 package com.example.user.fuckinggreatadvicegetter.views
 
 import android.os.Bundle
-import android.support.design.widget.TabLayout
-import android.support.v4.view.ViewPager
+import android.support.design.widget.BottomNavigationView.OnNavigationItemSelectedListener
 import android.support.v7.app.AppCompatActivity
 import com.example.user.fuckinggreatadvicegetter.R
 import com.example.user.fuckinggreatadvicegetter.views.adapters.FavoritesListAdapter
-import com.example.user.fuckinggreatadvicegetter.views.adapters.ViewPagerAdapter
 import io.realm.Realm
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     private var adapter: FavoritesListAdapter? = null
+    private val adviceFragment = AdviceFragment()
+    private val favoritesFragment = FavoritesFragment()
+    private val fragmentManager = supportFragmentManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Realm.init(this)
-        val viewPager = findViewById<ViewPager>(R.id.mainActivityPager)
-        val tabLayout = findViewById<TabLayout>(R.id.tablayout)
-        setupViewPager(viewPager)
-        tabLayout.setupWithViewPager(viewPager)
-    }
-
-    private fun setupViewPager(viewPager: ViewPager) {
-        val fragments = arrayOf(AdviceFragment(), FavoritesFragment())
-        val titles = arrayOf(resources.getString(R.string.advice), resources.getString(R.string.favorites))
-        val adapter = ViewPagerAdapter(supportFragmentManager, titles, fragments)
-        viewPager.adapter = adapter
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        fragmentManager.beginTransaction().add(R.id.frame_container, adviceFragment).commit()
     }
 
     fun setAdapter(adapter: FavoritesListAdapter) {
@@ -36,5 +29,19 @@ class MainActivity : AppCompatActivity() {
 
     fun getAdapter(): FavoritesListAdapter? {
         return adapter
+    }
+
+    private val mOnNavigationItemSelectedListener = OnNavigationItemSelectedListener { item ->
+        when (item.itemId) {
+            R.id.adviceFragment -> {
+                fragmentManager.beginTransaction().replace(R.id.frame_container, adviceFragment).commit()
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.favoritesFragment -> {
+                fragmentManager.beginTransaction().replace(R.id.frame_container, favoritesFragment).commit()
+                return@OnNavigationItemSelectedListener true
+            }
+        }
+        false
     }
 }
